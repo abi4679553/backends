@@ -8,6 +8,9 @@ const b = 20
 const sum = a + b
 console.log(sum);
 
+x = 10;
+console.log("x:",x)
+
 app.get("/",(req,res)=>{
     res.send("tha value" + sum);
 })
