@@ -16,6 +16,10 @@ while( p<=10){
     console.log(p)
     p++;
 }
+let q = 2;
+while(q<10){
+    console.log(q)
+}
 
 app.get("/",(req,res)=>{
     res.send("tha value" + sum);
