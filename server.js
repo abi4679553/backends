@@ -9,13 +9,25 @@ const sum = a + b
 console.log(sum);
 
 x = 10;
-console.log("x:",x)
+console.log("x:"+ x)
+
+let p = 1;
+while( p<=10){
+    console.log(p)
+    p++;
+}
 
 app.get("/",(req,res)=>{
     res.send("tha value" + sum);
 })
+app.get("/about",(req,res)=>{
+    res.send("x value:" + x);
+})
 
-
+app.get("/home",(req,res)=>
+{
+    res.send("p value :"+p)
+})
 
 app.listen(port, () => {
     console.log("backend running")
