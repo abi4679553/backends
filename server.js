@@ -3,31 +3,38 @@ const app = express()
 
 const port = 4000
 
-const a = 10 
-const b = 20
-const sum = a + b
-console.log(sum);
+// const a = 10 
+// const b = 20
+// const sum = a + b
+// console.log(sum);
 
-x = 10;
-console.log("x:"+ x)
+// x = 10;
+// console.log("x:"+ x)
 
-let p = 1;
-while( p<=10){
-    console.log(p)
-    p++;
-}
-let q = 2;
-while(q<5){
-    console.log(q)
-}
+// let p = 1;
+// while( p<=10){
+//     console.log(p)
+//     p++;
+// }
+// let q = 2;
+// while(q<5){
+//     console.log(q)
+// }
 
 
-let i = 10;
- sum =0;
-while(i<=10){
-    sum = sum + i;
-    i++;
-    console.log(i)
+// let i = 10;
+//  sum =0;
+// while(i<=10){
+//     sum = sum + i;
+//     i++;
+//     console.log(i)
+// }
+
+let m = 1;
+
+while(m <= 10){
+    console.log("2 x " + m + " = " + (2 * m));
+    m++;
 }
 
 
