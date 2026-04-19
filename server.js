@@ -17,9 +17,19 @@ while( p<=10){
     p++;
 }
 let q = 2;
-while(q<10){
+while(q<5){
     console.log(q)
 }
+
+
+let i = 10;
+ sum =0;
+while(i<=10){
+    sum = sum + i;
+    i++;
+    console.log(i)
+}
+
 
 app.get("/",(req,res)=>{
     res.send("tha value" + sum);
@@ -33,6 +43,10 @@ app.get("/home",(req,res)=>
     res.send("p value :"+p)
 })
 
+
+app.get("/",(req,res)=>{
+
+})
 app.listen(port, () => {
     console.log("backend running")
 })
