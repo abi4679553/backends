@@ -37,6 +37,11 @@ while(m <= 10){
     m++;
 }
 
+let n = 0;
+while(n<=5){
+    console.log("3 * " + n + " = " +(3 * n));
+    n++;
+}
 
 app.get("/",(req,res)=>{
     res.send("tha value" + sum);
