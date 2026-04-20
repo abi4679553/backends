@@ -38,10 +38,21 @@ while(m <= 10){
 }
 
 let n = 0;
-while(n<=5){
+while(n<=20){
     console.log("3 * " + n + " = " +(3 * n));
     n++;
 }
+
+let v = 5;
+while(v<=1)
+{
+    console.log("1 x " + v + " = " +(1 * v));
+    v++;
+}
+
+
+
+
 
 app.get("/",(req,res)=>{
     res.send("tha value" + sum);
