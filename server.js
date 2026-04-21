@@ -53,7 +53,7 @@ while(v<=1)
 let i = 5;
 
 while(i >= 1){
-    console.log(i);
+    console.log("1 x "+i+" = "+(1*i));
     i--;
 }
 
