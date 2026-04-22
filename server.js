@@ -57,6 +57,11 @@ while(i >= 1){
     i--;
 }
 
+let result = ""
+for(let w = 1;w<=4;w++){
+    result = result + w;
+    console.log("*")
+}
 
 
 app.get("/",(req,res)=>{
