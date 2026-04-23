@@ -68,6 +68,12 @@ for(let b = 1;b<=4;b++){
     store = store + b;
     console.log("*")
 }
+let d= 1;
+
+while (true) {
+    console.log(d);
+    d++;
+}
 
 app.get("/",(req,res)=>{
     res.send("tha value" + sum);
