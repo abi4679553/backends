@@ -63,6 +63,11 @@ for(let w = 1;w<=4;w++){
     console.log("*")
 }
 
+let store = ""
+for(let b = 1;b<=4;b++){
+    store = store + b;
+    console.log("*")
+}
 
 app.get("/",(req,res)=>{
     res.send("tha value" + sum);
